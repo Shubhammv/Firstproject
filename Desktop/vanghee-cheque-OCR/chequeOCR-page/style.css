@@ -1,0 +1,90 @@
+a:hover {
+    text-decoration: none !important;
+}
+
+.button {
+  background-color: var(--background);
+  color: white;
+  transition: 0.3s ease;
+}
+.button:hover {
+  background-color: var(--background);
+  box-shadow: 0 0 0 2px var(--color-background),0 0 0 5px var(--background);
+}
+
+.button--inverse {
+    color: white;
+}
+.button--inverse:hover, .button--inverse:focus {
+    box-shadow: 0 0 0 2px #fff;
+    color: white;
+}
+.grid__image {
+  height: auto;
+  max-width: 100%;
+}
+
+application-header__button {
+  width: inherit;
+  height: inherit;
+}
+
+
+.type-heading p {
+  margin-bottom: inherit;
+}
+
+.logo-heading {
+  margin-bottom: 0;
+}
+
+
+.radio-item > input, .radio-item label {
+    display: inline;
+    font-weight: normal;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border: none;
+    background-color: var(--background);
+    outline: 0;
+  }
+
+  input[type=checkbox]:focus + label::before,
+input[type=radio]:focus + label::before {
+outline: none;
+outline: 0px !important;
+-webkit-appearance:none !important;
+
+-webkit-box-shadow: none !important;
+-moz-box-shadow: none !important;
+box-shadow: none !important;
+
+}
+
+.color {
+    color: var(--background) !important;
+}
+
+.link {
+    transition: 0.3s ease;
+    text-decoration: none !important;
+}
+.link:focus, .link:hover {
+    color: var(--background) !important;
+    text-decoration: underline !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.no-underline, .no-underline:hover {
+    text-decoration: none !important;
+}
+
+.privacy-notice {
+    transition: 0.3s ease;
+    background-color: var(--background);
+}
